@@ -1,4 +1,4 @@
-# estimate the mutation rate and check the non-synonymous mutation sites
+# Estimate the mutation rate and check the non-synonymous mutation sites
 ## 1.build the phylogenetic tree
 #### here we base on the solid somatic call mutation build the phylogenetic tree with the principle samples come from the same mother ramet shared more same somatic mutation sites
 ### 1.1 build the phylogentic tree structure
