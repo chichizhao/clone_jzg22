@@ -1,5 +1,5 @@
 # clone_jzg22
-This script we used for jzg population analysis with 2020 refenrence data
+This script we used for jzg population analysis with 2022 refenrence data
 
 ## 01 build the reference genome
 Scripts we used for build the reference are in 01_ref
