@@ -31,7 +31,7 @@
     for sample in $(cat sample_list.txt);
     do java -Djava.io.tmpdir=/tmp -Xmx128g -jar path/gatk-package-4.2.4.1-local.jar HaplotypeCaller --native-pair-hmm-threads 16 -R typha.fa -I ${sample}_dedup.bam -ERC GVCF -O ${sample}.g.vcf.gz;
     done
-### joint genotyping
+### join genotyping
     GATK4:  https://github.com/broadgsa/gatk
     for file in $(cat list);do echo -en --variant ${file}.g.vcf' '; done > mergevcf
     echo  >> mergevcf
