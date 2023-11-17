@@ -84,7 +84,7 @@
     AUGUSTUS: https://github.com/Gaius-Augustus/Augustus
     braker.pl --species=typha --genome=typha_draft.fa.masked --prot_seq=proteins.fasta --softmasking --gff3 --cores=48 --workingdir=ab_initio --min_contig=1000
 #### after the BRAKER, we get the ab initio gene annotation file 
-    mv augustus.hints.gff3 typha_ab_initio.gff3
+    mv braker.gtf typha_ab_initio.gff3
     
 ### Homology-based gene prediction
     GenomeThreader: https://github.com/genometools/genomethreader
