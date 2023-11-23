@@ -163,7 +163,7 @@
     
     gtf_to_cdna_fasta.pl typha_rna.gff3 typha_rna.fa > transcripts.fasta
     seqclean transcripts.fasta
-    Launch_PASA_pipeline.pl -c alignAssembly.config -C -R -g typha_draft.fa.masked -t transcripts.fasta.clean -T -u transcripts.fasta.clean --ALIGNERS gmap --CPU 16
+    Launch_PASA_pipeline.pl -c alignAssembly.config -C -R -g typha_draft.fa.masked -t transcripts.fasta.clean --ALIGNERS gmap --CPU 16
 #### here we need run it twice.
     pasa_gff3_validator.pl pasa_assemblies.gff3 > pasa_assemblies.gff3.valid
     Load_Current_Gene_Annotations.dbi -c pasa_conf.txt -g typha_draft.fa.masked -P pasa_assemblies.gff3.valid
