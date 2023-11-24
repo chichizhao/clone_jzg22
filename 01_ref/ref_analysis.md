@@ -167,6 +167,7 @@
 #### here we need run it twice.
     pasa_gff3_validator.pl pasa_assemblies.gff3 > pasa_assemblies.gff3.valid
     Load_Current_Gene_Annotations.dbi -c pasa_conf.txt -g typha_draft.fa.masked -P pasa_assemblies.gff3.valid
+    Launch_PASA_pipeline.pl -c annotCompare.config -C -R -g typha_draft.fa.masked -t transcripts.fasta.clean --ALIGNERS gmap --CPU 16
     
 #### after the PASA, we get the final gene annotation file
     pasa_assemblies.gff3.valid
