@@ -3,7 +3,7 @@
 # author: zhaochichi github: https://github.com/chichizhao/clone_jzg22
 # estaminat the time scale of the tree, with the mutation rate of 5.5e-9
 # we assume the tree is rooted, and different branches have different mutation rates
-# aslo, we assume the leaf has different mutation rates
+# also, we assume the leaf has different mutation rates
 # usage: python3 evolution_tree_time.py -tree tree.nwk -mut 5.52e-9 -ml mutational_length.txt -ref typha.fa -out out.txt
 # gemome_length is the length of the reference genome: 216955151
 import sys
