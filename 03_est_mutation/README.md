@@ -15,7 +15,7 @@
 ## 2. check the non-synonymous mutation sites
 #### above file provide the mutation rate for each branch, and classify the mutation sites which marked a time range of each mutation site
 #### here we use the python script to achieve the function.
-#### here are some preciple for the non-synonymous mutation sites check
+#### here are some principle for the non-synonymous mutation sites check
     1. the mutation sites should be in the coding region
     2. the mutation sites should be non-synonymous mutation
     3. the mutation sites should be check in time order and one sample by one sample
