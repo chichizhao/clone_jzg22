@@ -1,4 +1,4 @@
-# count the character somatic mutations character in each sample
+# Count the characteristics of somatic mutations character in each sample
 ## 1.count the position of somatic mutations in each sample
 #### here we use python to count the position of somatic mutations in each sample
     python check_pos_somatic_mutations.py
