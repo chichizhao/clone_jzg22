@@ -175,7 +175,7 @@
 
 ## functional annotation
 ### Swiss-Prot, pfam, GO, KEGG, NR, InterPro
-    annotate wit blast2go
+    annotate with blast2go
 
 # 03 species phylogenetic tree
 ## Species
